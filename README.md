@@ -56,17 +56,9 @@ You need the following software installed:
 Follow these steps to upload a file and start analyzing your data using natural language commands.
 
 ### 1. Upload Your Data
-
-The initial screen is the **"Ready to Analyze"** state.
-## Screenshots
-
-![App UI](Screenshot 2025-12-03 at 10.23.08.png)
-
-
 * Click the **"Upload CSV"** box or drag and drop your data file onto the area. * The application will load the data and switch to the **Data Preview** mode.
 
 ### 2. Preview Your Data Structure
-
 Once uploaded, the screen will display the first 100 rows of your dataset, allowing you to quickly verify the data quality and identify the available column names.
 
 * The **COLUMNS** sidebar on the left shows all fields available for analysis (e.g., `Year`, `Industry_name_NZSIOC`, `Value`).
@@ -79,10 +71,37 @@ Use the chat interface to ask the AI to analyze and plot your data.
 * **Example Query:** `give a barchart for year and value` * The **DataAgent** (powered by Gemini 2.5 Flash) will process the request, generate the necessary visualization code, and display the resulting chart directly in the interface.
 
 **Example Visualization Output:** The application displays a **Bar Chart** showing the aggregate **'Value by Year'**, with specific data points highlighted on hover (e.g., Year 2018, Value: 345).
-[Watch demo video](Screen Recording 2025-12-03 at 10.19.51.mov)
+
 
 ---
 
-## 🛠️ Project Structure
+## 📸 Screenshots
 
-The project is based on the Gemini Data Analyst starter kit. Key files are located in the structure shown below:
+### Full Application View
+![Entire App](./Entire%20App.png)
+
+> Complete interface including data preview, sidebar columns, AI chat and chart output.
+
+---
+
+### Upload Screen (Initial State)
+![Upload Screen](./Screenshot%202025-12-03%20at%2010.23.08.png)
+
+> CSV upload interface before data is loaded.
+
+---
+
+### Data Preview Mode
+![Data Preview](./Screenshot%202025-12-03%20at%2010.23.28.png)
+
+> Dataset loaded successfully with column overview and first 100 rows shown.
+
+---
+
+### Chart Generation Output
+![Visualization](./Screenshot%202025-12-03%20at%2010.23.37.png)
+
+> AI-generated visualization using natural language query.
+
+---
+
