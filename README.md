@@ -89,19 +89,19 @@ Use the chat interface to ask the AI to analyze and plot your data.
 ### Upload Screen (Initial State)
 ![Data Preview](./Screenshot%202025-12-03%20at%2010.23.28.png)
 
-> Dataset loaded successfully with column overview and first 100 rows shown.
 
+> CSV upload interface before data is loaded.
 ---
 
 ### Data Preview Mode
 ![Visualization](./Screenshot%202025-12-03%20at%2010.23.37.png)
 
-> AI-generated visualization using natural language query.
+ Dataset loaded successfully with column overview and first 100 rows shown.
 
 ---
 ### Chart Generation Output
 ![Upload Screen](./Screenshot%202025-12-03%20at%2010.23.08.png)
 
-> CSV upload interface before data is loaded.
+> AI-generated visualization using natural language query.>
 
 ---
