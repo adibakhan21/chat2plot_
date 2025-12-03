@@ -60,7 +60,7 @@ Follow these steps to upload a file and start analyzing your data using natural 
 The initial screen is the **"Ready to Analyze"** state.
 ## Screenshots
 
-![App UI](images/Screenshot 2025-12-03 at 10.23.08.png)
+![App UI](Screenshot 2025-12-03 at 10.23.08.png)
 
 
 * Click the **"Upload CSV"** box or drag and drop your data file onto the area. * The application will load the data and switch to the **Data Preview** mode.
@@ -79,7 +79,7 @@ Use the chat interface to ask the AI to analyze and plot your data.
 * **Example Query:** `give a barchart for year and value` * The **DataAgent** (powered by Gemini 2.5 Flash) will process the request, generate the necessary visualization code, and display the resulting chart directly in the interface.
 
 **Example Visualization Output:** The application displays a **Bar Chart** showing the aggregate **'Value by Year'**, with specific data points highlighted on hover (e.g., Year 2018, Value: 345).
-[Watch demo video](images/Screen Recording 2025-12-03 at 10.19.51.mov)
+[Watch demo video](Screen Recording 2025-12-03 at 10.19.51.mov)
 
 ---
 
